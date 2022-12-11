@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+ font-family: 'Bebas Neue', cursive;;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 22px;
+}
+
+a:hover{
+    color: #a8861e;
+   
+}
+
+.FooterBarAllPages{
+
+    width: 100vw;
+    height: 40px;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 36%, rgba(12,18,83,1) 84%);
+    color:white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 10px 13px -7px #e7e7e7e7, -3px 3px 15px -2px rgba(0, 0, 0, 0);
+}
+
+.Card-Home{
+
+    width: 60vw;
+    height: 70vh;
+    border: 0.1px solid black;
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(3px);
+    padding-top: 1%;
+    
+    
+}
+@media only screen and (max-width: 900px) {
+    .Card-Home {
+      width: 70vw;
+      padding-left: 10px;
+    }
+  }
+.Home-Page{
+
+    width: 100%;
+    height: 87vh;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    justify-content: center;
+    background: url(back-foot.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+.Page-Ranking{
+
+    width: 100vw;
+    height: 80%;
+    background-image: url("back-foot.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   
+}
+
+.TitleCard{
+
+  display: flex;
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  justify-content: center;
+  margin-bottom: 25px;
+  padding-top: 25px;
+   
+    
+}
+
+.Page-News{
+
+    width: 100vw;
+    height: 80%;
+    background-image: url("NewsPap.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+   
+}
+
+.TitleCardNews{
+
+  display: flex;
+  text-align: center;
+  color: black;
+  font-size: 1.5rem;
+  justify-content: center;
+  margin-bottom: 25px;
+  padding-top: 25px;
+   
+    
+}
+
+.card-Games{
+
+    width: 100vw;
+    height: 80%;
+    background-image: url("messii.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+   
+}
+
+.TitleCardGames{
+
+    display: flex;
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    justify-content: center;
+    margin-bottom: 25px;
+    padding-top: 25px;
+     
+      
+  }
+
+  .About-Me-Page{
+
+    width: 100%;
+    height: 88vh;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    justify-content: center;
+    background: url(black-desingg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+      
+  }
